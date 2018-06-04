@@ -1,0 +1,31 @@
+/*banner图*/
+.banner {
+  position: relative;
+  height: 480px; }
+  .banner .banner-list {
+    position: absolute;
+    left: 50%;
+    margin-left: -960px;
+    height: 480px; }
+    .banner .banner-list li {
+      position: absolute;
+      opacity: 0;
+      transform: scale(0);
+      transition: transform 0.5s,opacity 1s; }
+    .banner .banner-list .active {
+      opacity: 1;
+      transform: scale(1); }
+  .banner .banner-btn {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+    text-align: center; }
+    .banner .banner-btn span {
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      margin: 0 5px;
+      border: 2px solid #fd7400;
+      border-radius: 50%;
+      cursor: pointer; }

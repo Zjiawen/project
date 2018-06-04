@@ -1,0 +1,128 @@
+.main {
+  padding: 20px 0; }
+  .main .container .list-filter {
+    border: 1px solid #ddd;
+    line-height: 40px;
+    font-size: 12px; }
+    .main .container .list-filter .sort li {
+      float: left;
+      width: 72px;
+      font-size: 14px;
+      text-align: center;
+      font-weight: bold; }
+    .main .container .list-filter .sort .sort-btn {
+      width: 90px;
+      font-size: 12px;
+      color: #fff;
+      background: #ccc;
+      position: relative;
+      cursor: pointer; }
+      .main .container .list-filter .sort .sort-btn .sort-btn-bgicon {
+        display: block;
+        width: 10px;
+        height: 10px;
+        background: url("img/sort-btn-bg.png") no-repeat 0px -2px;
+        position: absolute;
+        right: 12px;
+        top: 16px; }
+    .main .container .list-filter .filtrate {
+      border-right: 1px solid #ddd; }
+      .main .container .list-filter .filtrate li {
+        float: left; }
+      .main .container .list-filter .filtrate .left {
+        text-align: right;
+        width: 42px; }
+      .main .container .list-filter .filtrate .price-range {
+        width: 110px;
+        padding-left: 12px; }
+        .main .container .list-filter .filtrate .price-range input {
+          width: 42px;
+          height: 20px;
+          padding-left: 3px;
+          border: 1px solid #ddd; }
+      .main .container .list-filter .filtrate .same {
+        width: 100px;
+        padding-left: 10px; }
+    .main .container .list-filter .search-keyword {
+      width: 252px;
+      height: 30px;
+      border: 1px solid #ddd;
+      border-right: none;
+      padding-left: 5px;
+      margin: 5px 0 0 5px; }
+    .main .container .list-filter .search-btn {
+      width: 45px;
+      height: 30px;
+      background: #fd7400;
+      margin-top: 5px;
+      color: #fff; }
+    .main .container .list-filter .page li {
+      float: left;
+      margin-right: 10px; }
+      .main .container .list-filter .page li span {
+        color: #e4393c; }
+    .main .container .list-filter .page .same0 {
+      border: 1px solid #ddd;
+      height: 30px;
+      line-height: 28px;
+      padding: 0 8px;
+      margin-top: 5px;
+      cursor: pointer; }
+    .main .container .list-filter .page .same0:hover {
+      color: #abcd05; }
+  .main .container .bottom-page {
+    padding: 20px 0;
+    border: none; }
+  .main .container .goodslist li {
+    position: relative;
+    float: left;
+    width: 224px;
+    height: 360px;
+    padding: 5px;
+    margin: 15px 17px 0 0; }
+    .main .container .goodslist li a {
+      display: block;
+      text-align: center;
+      cursor: pointer; }
+      .main .container .goodslist li a .imgurl {
+        width: 80%;
+        transition: width 0.3s; }
+      .main .container .goodslist li a .goods-information {
+        height: 44px;
+        font-size: 12px;
+        line-height: 22px;
+        overflow: hidden;
+        color: #777; }
+        .main .container .goodslist li a .goods-information .goodsname {
+          padding: 0 5px 0 58px;
+          background: url("img/goodslist-bg.png") no-repeat 0 1px; }
+    .main .container .goodslist li a:hover .goods-information {
+      color: #abcd05; }
+    .main .container .goodslist li .down {
+      padding-top: 15px;
+      line-height: 22px; }
+      .main .container .goodslist li .down .goodsprice {
+        font-size: 16px;
+        color: #fd7400; }
+      .main .container .goodslist li .down .buy-times {
+        color: #bbb; }
+        .main .container .goodslist li .down .buy-times span {
+          color: #fd7400; }
+    .main .container .goodslist li .add-car-btn {
+      display: none;
+      padding: 10px 20px;
+      line-height: 14px;
+      background: #fd7400;
+      color: #fff;
+      border-radius: 5px;
+      cursor: pointer;
+      position: absolute;
+      left: 53px;
+      bottom: 10px;
+      user-select: none; }
+  .main .container .goodslist li:hover {
+    box-shadow: 1px 1px 2px 1px #ccc; }
+    .main .container .goodslist li:hover a .imgurl {
+      width: 100%; }
+    .main .container .goodslist li:hover .add-car-btn {
+      display: block; }

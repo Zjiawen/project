@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>依谷网-专注于绿色生态农产品宅生活电商</title>
+    <meta content="依谷、水果、进口水果、生鲜、蔬菜、肉类、禽蛋、网购、大闸蟹、礼品卡、礼盒、农产品、批发、绿色食品、健康" name="Keywords">
+    <meta content="农产品购物网站,提供进口水果、礼盒以及水果团购服务以及新鲜、优质、高档、绿色、健康无公害等日常农副食品，倡导低碳生活，提升生活品质，保障食品安全" name="Description">
+    <link rel="stylesheet" type="text/css" href="../css/base.css" />
+    <link rel="stylesheet" type="text/css" href="../css/common.css" />
+    <link rel="stylesheet" type="text/css" href="../css/banner.css" />
+    <link rel="stylesheet" type="text/css" href="../css/goodslist.css" />
+    <script src="../js/require.js" data-main="../js/goodslistbase.js" type="text/javascript"></script>
+</head>
+<body>
+    <bsheader></bsheader>
+    <bsbanner></bsbanner>
+    <div class="main">
+        <div class="container">
+            <!-- 上方商品筛选条 -->
+            <div class="list-filter clearfix">
+                <ul class="sort clearfix fl">
+                    <li>排序：</li>
+                    <li class="sort-btn">价格<i class="sort-btn-bgicon"></i></li>
+                </ul>
+                <ul class="filtrate fl">
+                    <li class="left">筛选</li>
+                    <li class="price-range">
+                        <input class="min-price" type="text" placeholder=" &yen;" />-<input class="max-price" type="text" placeholder=" &yen;" />
+                    </li>
+                    <li class="discounts same">
+                        <input class="discounts-btn" type="checkbox" /> 限时优惠
+                    </li>
+                    <li class="new same">
+                        <input class="new-btn" type="checkbox" /> 新品上市
+                    </li>
+                </ul>
+                <input class="search-keyword fl" type="text" placeholder="请输入商品名称" /><button class="search-btn fl">确定</button>
+                <ul class="page fr">
+                    <li>共<span class="goodsnum-sum"></span>件商品 <span class="cur-page">1</span>/<span class="total-page"></span>页</li>
+                    <li class="pre-page same0">上一页</li>
+                    <li class="next-page same0">下一页</li>
+                </ul>
+            </div>
+            <!-- 商品列表 -->
+            <ul class="goodslist clearfix">
+                <!-- <li data-id="a1">
+                    <a class="go-detail">
+                        <img class="imgurl" src="http://localhost:666/img/goodsimg/fruit/2-1.jpg" alt="" />
+                        <p class="goods-information">
+                            <span class="goodsname">山东红富士苹果80#15kg</span><span class="goodstitle">高端大果 单果约重200-250g 口感香脆爽 核小肉多</span>
+                        </p>
+                    </a>
+                    <div class="down clearfix">
+                        <p class="goodsprice fl">&yen; <span class="nowprice"> 163.00</span></p>
+                        <p class="buy-times fr">已有<span>314+</span>人购买</p>
+                    </div>
+                    <div class="add-to-car">
+                        加入购物车&#187;
+                    </div>
+                </li> -->
+            </ul>
+            <!-- 下方商品筛选条 -->
+            <div class="list-filter bottom-page clearfix ">
+                <ul class="page fr">
+                    <li>共<span class="goodsnum-sum"></span>件商品 <span class="cur-page"></span>/<span class="total-page"></span>页</li>
+                    <li class="first-page same0">首页</li>
+                    <li class="pre-page same0">上一页</li>
+                    <li class="next-page same0">下一页</li>
+                    <li class="last-page same0">尾页</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <bsbottom></bsbottom>
+</body>
+</html>
